@@ -4,8 +4,16 @@
   "description": "hello",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "shakkazombie",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "node": "^10.6.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {},
+  "keywords": []
 }
